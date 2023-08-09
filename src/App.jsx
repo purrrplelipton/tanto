@@ -1,8 +1,14 @@
 import React from 'react';
-import { LandingPage } from './components';
+import { Footer, Header, Home } from './components';
 
 function App() {
-  return <LandingPage />;
+  return (
+    <>
+      <Header />
+      <Home />
+      {/* <Footer /> */}
+    </>
+  );
 }
 
 export default App;
