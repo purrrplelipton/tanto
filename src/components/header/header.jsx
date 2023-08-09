@@ -4,11 +4,11 @@ import { v4 } from 'uuid';
 import './header.css';
 
 function Header() {
-  const [isTop, setIsTop] = React.useState(false);
+  const [isTop, setIsTop] = React.useState(true);
 
   React.useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY === 0) return setIsTop(true);
+      if (window.scrollY <= 32) return setIsTop(true);
       return setIsTop(false);
     };
     window.addEventListener('scroll', handleScroll);
