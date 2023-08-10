@@ -4,10 +4,12 @@ import './footer.css';
 
 function Footer() {
   return (
-    <footer className="page-footer">
+    <footer id="footer" className="page-footer">
       <div className="left">
         <a className="logo" href="/" target="_blank" rel="noopener noreferrer">
-          Tantoluwa
+          <span>Kindle</span>
+          <span>Direct</span>
+          <span>Publishing</span>
         </a>
         <p className="tagline">
           Copyright

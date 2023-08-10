@@ -23,7 +23,9 @@ function Header() {
     >
       <div className="left">
         <a className="logo" href="/" target="_self" rel="nofollow noopener">
-          Tantoluwa
+          <span>Kindle</span>
+          <span>Direct</span>
+          <span>Publishing</span>
         </a>
       </div>
       <div className="right">

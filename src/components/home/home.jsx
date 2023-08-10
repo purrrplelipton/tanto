@@ -1,22 +1,22 @@
+import { annieSprattUnsplash } from '@assets';
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { v4 } from 'uuid';
-import { tantoWebp } from '../../assets';
 import './home.css';
 
 function Home() {
   return (
-    <section id="home" className="landing-page">
+    <section id="home" className="home">
       <div className="content">
         <h1 className="title">
-          work on your terms
-          {[<br key={v4()} />, 'and ']}
-          <strong>make money</strong>
-          &nbsp;online
+          Turn Your <span>Words</span>
+          <br />
+          into <span>Wealth</span>
+          <br />
+          with Amazon KDP
         </h1>
         <p className="subtitle">
-          Ready to enhance your earnings? Team up with us and receive up to 25%
-          for each sale!
+          Ready to enhance your earnings?
+          <br />
+          Upload Books on Amazon, No Writing Skills Required!
         </p>
         <a
           className="get-started"
@@ -28,11 +28,13 @@ function Home() {
         </a>
       </div>
       <figure>
-        <img src={tantoWebp} alt="a portrait of sogbesan tantoluwa" />
-        <figcaption>
-          Sogbesan Tantoluwa
-          <em>Affiliate Business Consultant</em>
-        </figcaption>
+        <img
+          src={annieSprattUnsplash}
+          alt="flat lay photography of woman sitting on brown wooden parquet flooring surrounded by books"
+          loading="eager"
+          decoding="sync"
+        />
+        <figcaption>Discover Amazon KDP Success</figcaption>
       </figure>
     </section>
   );

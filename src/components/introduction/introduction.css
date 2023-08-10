@@ -1,0 +1,59 @@
+.introduction {
+  padding: 0 1.5em;
+
+  .content {
+    h2 {
+      font-size: 1.875em;
+
+      span {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          background-color: currentColor;
+          height: 2px;
+          right: 0;
+          bottom: -6px;
+          left: 0;
+        }
+      }
+    }
+
+    p {
+      font-size: 1.25em;
+      &:not(:last-child) {
+        margin-bottom: 0.8em;
+      }
+
+      &:first-of-type {
+        margin-top: 0.5em;
+      }
+    }
+  }
+
+  figure {
+    position: relative;
+    margin: 3em 0;
+    border-radius: 8px;
+    overflow: hidden;
+
+    /* img {} */
+
+    figcaption {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 0 0 8px 8px;
+      background-image: linear-gradient(transparent, hsla(0, 0%, 0%, 0.5) 50%);
+      padding: 8px;
+      display: flex;
+      flex-flow: column nowrap;
+
+      em {
+        font-size: 0.875em;
+        margin-top: -0.375em;
+      }
+    }
+  }
+}
