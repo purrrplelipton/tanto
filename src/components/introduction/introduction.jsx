@@ -1,50 +1,55 @@
-import { tantoWebp } from '@assets';
+import { tantolorun } from '@assets';
 import React from 'react';
 import './introduction.css';
 
 function Introduction() {
   return (
     <section id="introduction" className="introduction">
-      <div className="content">
-        <h2>
-          Hello!
-          <br />
-          I&apos;m <span>Tantoluwa Sogbesan</span>
-        </h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde sint
-          debitis nam esse exercitationem pariatur!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint sit
-          maxime reiciendis incidunt, libero quibusdam odio iste hic autem
-          possimus eveniet repellat blanditiis fuga!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolor
-          quo, numquam consequatur consectetur tempora minus reprehenderit
-          beatae? Eveniet.
-        </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad natus,
-          quas magni ipsam facilis maxime sequi consequatur tempora esse
-          adipisci praesentium dignissimos. Harum perferendis repudiandae saepe
-          delectus sed. Cumque, tempore unde.
-        </p>
-      </div>
+      <h2>
+        Hello!
+        <br />
+        I&apos;m <span>Sogbesan Tantolorun</span>
+      </h2>
+      <p>
+        I was a relatively average Nigerian student frustrated with the
+        occasional ASSU strike
+      </p>
+      <p>
+        All I wanted was to be able to afford things without solely depending on
+        my allowance which wasn&apos;t worth much
+      </p>
+      <p>
+        Around the same time, the whole &lsquo;make money online&lsquo; trend
+        started to gain traction. Needless to say, I fell victim to a lot of
+        ponzi schemes all in the name of wanting to be financially free. I got
+        scammed out of the little I use to get by
+      </p>
       <figure>
         <img
-          src={tantoWebp}
-          alt="a portrait of sogbesan tantoluwa"
-          loading="eager"
-          decoding="sync"
+          src={tantolorun}
+          alt="a portrait of sogbesan tantolorun"
+          loading="lazy"
+          decoding="async"
         />
         <figcaption>
-          Sogbesan Tantoluwa
+          Sogbesan Tantolorun
           <em>Affiliate Business Consultant</em>
         </figcaption>
       </figure>
+      <p>
+        Until a friend introduced me to Amazon KDP, that came in clutch as I had
+        a complete nervous breakdown
+      </p>
+      <p>
+        Call it what you want, I made up my mind to familiarize myself with
+        publishing and earning through Amazon KDP
+      </p>
+      <p>
+        Initially, all I thought Amazon KDP was good for was supplementing ones
+        income, not more than ₦20k per month. But, news got to me that people
+        pay rent/mortgage, buy cars, etc with Kindle Direct Publishing alone, I
+        was hooked
+      </p>
     </section>
   );
 }

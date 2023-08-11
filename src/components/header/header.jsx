@@ -8,7 +8,7 @@ function Header() {
 
   React.useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY <= 32) return setIsTop(true);
+      if (window.scrollY <= 24) return setIsTop(true);
       return setIsTop(false);
     };
     window.addEventListener('scroll', handleScroll);
@@ -18,7 +18,7 @@ function Header() {
 
   return (
     <header
-      style={isTop ? {} : { boxShadow: '0 4px 8px 0 hsla(0, 0%, 0%, 0.1)' }}
+      style={isTop ? {} : { boxShadow: '0 6px 10px 0 hsla(0, 0%, 0%, 0.2)' }}
       className="header"
     >
       <div className="left">

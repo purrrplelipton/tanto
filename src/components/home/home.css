@@ -7,7 +7,7 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    padding: 3em 0;
+    padding: 3em 0 1em;
 
     .title {
       font-size: 1.875em;
@@ -33,14 +33,14 @@
       border: 1px solid transparent;
       color: var(--jet);
       padding: 1em 0.8em;
-      margin: 1em;
+      margin: 1.4em 0.8em 1em;
       background-color: var(--champagne-pink);
     }
   }
 
   figure {
     position: relative;
-    margin-bottom: 3em;
+    margin: 2em 0 3em;
     border-radius: 8px;
     overflow: hidden;
 
@@ -56,7 +56,7 @@
       bottom: 0;
       left: 0;
       border-radius: 0 0 8px 8px;
-      background-image: linear-gradient(transparent, hsla(0, 0%, 0%, 0.5) 50%);
+      background-image: linear-gradient(transparent, hsla(0, 0%, 0%, 0.5));
       padding: 8px;
       display: flex;
       flex-flow: column nowrap;

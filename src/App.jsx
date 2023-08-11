@@ -1,5 +1,12 @@
 import React from 'react';
-import { Footer, Header, Home, Introduction } from './components';
+import {
+  Footer,
+  Header,
+  Home,
+  Introduction,
+  Results,
+  Summary,
+} from './components';
 
 function App() {
   return (
@@ -7,6 +14,8 @@ function App() {
       <Header />
       <Home />
       <Introduction />
+      <Summary />
+      <Results />
       <Footer />
     </>
   );

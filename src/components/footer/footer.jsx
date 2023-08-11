@@ -13,7 +13,7 @@ function Footer() {
         </a>
         <p className="tagline">
           Copyright
-          <sup>&copy;</sup> 2023 Tantoluwa &amp; Co.
+          <sup>&copy;</sup> 2023 Amazon
         </p>
       </div>
       <ul className="right">

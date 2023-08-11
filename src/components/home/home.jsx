@@ -1,4 +1,4 @@
-import { annieSprattUnsplash } from '@assets';
+import { annieSpratt } from '@assets';
 import React from 'react';
 import './home.css';
 
@@ -20,16 +20,16 @@ function Home() {
         </p>
         <a
           className="get-started"
-          href={import.meta.env.VITE_AFFILIATE_LINK}
+          href="https://wa.me/+2348087823890"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Get Started
+          Earning Process Explained
         </a>
       </div>
       <figure>
         <img
-          src={annieSprattUnsplash}
+          src={annieSpratt}
           alt="flat lay photography of woman sitting on brown wooden parquet flooring surrounded by books"
           loading="eager"
           decoding="sync"
