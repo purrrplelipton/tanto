@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved
 import { kdpLogo, summary } from '@assets';
 import React from 'react';
 import './summary.css';
@@ -5,10 +6,20 @@ import './summary.css';
 function Summary() {
   return (
     <section id="summary" className="summary">
+      <div className="custom-shape-divider-top-1691831125">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path d="M1200 0L0 0 892.25 114.72 1200 0z" className="shape-fill" />
+        </svg>
+      </div>
       <h2>
-        What Exactly is
+        What Exactly
         <br />
-        Amazon KDP
+        is Amazon KDP
       </h2>
       <img
         src={kdpLogo}
@@ -72,7 +83,7 @@ function Summary() {
         publishing houses.
       </p>
       <figure>
-        <img src={summary} alt="" />
+        <img src={summary} alt="assorted-color item lot" />
         <figcaption>Join Today & Set Yourself Up for a Rich Future</figcaption>
       </figure>
     </section>

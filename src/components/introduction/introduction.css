@@ -1,11 +1,28 @@
 .introduction {
   padding: 1.5em;
-  background-image: linear-gradient(
-    178deg,
-    transparent 1%,
-    var(--champagne-pink) 1%
-  );
+  position: relative;
+  background-color: var(--champagne-pink);
   color: var(--jet);
+
+  .custom-shape-divider-top-1691830726 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+    svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 32px;
+
+      .shape-fill {
+        fill: var(--jet);
+      }
+    }
+  }
 
   h2 {
     font-size: 1.875em;

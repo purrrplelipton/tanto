@@ -1,11 +1,28 @@
 .summary {
   overflow: auto;
   padding: 1.5em;
-  background-image: linear-gradient(
-    182deg,
-    var(--champagne-pink) 1%,
-    var(--jet) 1%
-  );
+  position: relative;
+
+  .custom-shape-divider-top-1691831125 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+    svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 24px;
+      transform: rotateY(180deg);
+
+      .shape-fill {
+        fill: var(--champagne-pink);
+      }
+    }
+  }
 
   h2 {
     font-size: 1.875em;
@@ -26,12 +43,11 @@
   }
 
   .get-started {
-    font-size: 0.8em;
     color: var(--jet);
     text-decoration: none;
     background-color: var(--champagne-pink);
     display: block;
-    margin: 1em 0.8em 1.4em;
+    margin: 0.8em 0.6em;
     font-weight: 600;
     text-align: center;
     padding: 1em;

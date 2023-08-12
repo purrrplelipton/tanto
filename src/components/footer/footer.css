@@ -1,70 +1,92 @@
 .page-footer {
-  background-image: linear-gradient(
-    178deg,
-    transparent 12.5%,
-    var(--champagne-pink) 12.5%
-  );
-  color: var(--jet);
+  position: relative;
   padding: 2em 1.5em;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: space-between;
   font-size: 0.875em;
+  background-color: var(--champagne-pink);
+  color: var(--jet);
 
-  .left {
-    .logo {
-      color: inherit;
-      text-decoration: none;
-      display: flex;
-      flex-flow: column nowrap;
-      letter-spacing: 1px;
+  .custom-shape-divider-top-1691837205 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+    svg {
       position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 32px;
 
-      span {
-        line-height: 1;
-
-        &:first-child {
-          font-weight: bolder;
-        }
-
-        &:not(:first-child, :last-child) {
-          margin: -0.15em 0 -0.15em;
-        }
+      .shape-fill {
+        fill: var(--jet);
       }
-
-      &::before {
-        content: 'PRO';
-        position: absolute;
-        font-family: cursive;
-        font-size: 0.625em;
-        font-weight: lighter;
-        line-height: 1em;
-        top: 35%;
-        left: 8ch;
-        transform: translateY(-35%) rotate(-45deg);
-      }
-    }
-
-    .tagline {
-      font-size: 0.875em;
-      font-weight: bolder;
     }
   }
+  .footer-content {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
 
-  .right {
-    list-style-type: none;
-    font-weight: bolder;
+    .left {
+      margin: 0.75em 0;
 
-    li {
-      a {
+      .logo {
         color: inherit;
-        text-transform: capitalize;
+        text-decoration: none;
+        display: flex;
+        flex-flow: column nowrap;
+        letter-spacing: 1px;
+        position: relative;
+
+        span {
+          line-height: 1;
+
+          &:first-child {
+            font-weight: bolder;
+          }
+
+          &:not(:first-child, :last-child) {
+            margin: -0.15em 0 -0.15em;
+          }
+        }
+
+        &::before {
+          content: 'PRO';
+          position: absolute;
+          font-family: cursive;
+          font-size: 0.625em;
+          font-weight: lighter;
+          line-height: 1em;
+          top: 35%;
+          left: 8ch;
+          transform: translateY(-35%) rotate(-45deg);
+        }
       }
 
-      &:last-child {
+      .tagline {
+        font-size: 0.875em;
+        font-weight: bolder;
+      }
+    }
+
+    .right {
+      list-style-type: none;
+      font-weight: bolder;
+      margin: 0.75em 0;
+
+      li {
         a {
-          text-transform: uppercase;
+          color: inherit;
+          text-transform: capitalize;
+        }
+
+        &:last-child {
+          a {
+            text-transform: uppercase;
+          }
         }
       }
     }

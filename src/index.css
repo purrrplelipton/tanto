@@ -1,9 +1,9 @@
 :root {
-  --licorice: hsla(14, 52%, 5%, 1);
-  --raw-umber: hsla(21, 44%, 39%, 1);
-  --champagne-pink: hsla(27, 36%, 83%, 1);
-  --black: hsla(0, 25%, 2%, 1);
-  --jet: hsla(40, 6%, 18%, 1);
+  --licorice: #130906;
+  --raw-umber: #8f5638;
+  --champagne-pink: #e3d2c4;
+  --black: #060404;
+  --jet: #312f2b;
 
   font-family: 'Maven Pro', sans-serif;
   line-height: 1.5;

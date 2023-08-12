@@ -3,6 +3,7 @@ import {
   Footer,
   Header,
   Home,
+  HowItWorks,
   Introduction,
   Results,
   Summary,
@@ -15,6 +16,7 @@ function App() {
       <Home />
       <Introduction />
       <Summary />
+      <HowItWorks />
       <Results />
       <Footer />
     </>
