@@ -20,7 +20,7 @@ function Home() {
         </p>
         <a
           className="get-started"
-          href="https://wa.me/+2348087823890"
+          href={import.meta.env.VITE_TEXT_LINK}
           target="_blank"
           rel="noopener noreferrer"
         >

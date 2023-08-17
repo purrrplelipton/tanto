@@ -4,7 +4,7 @@ import './how-it-works.css';
 function HowItWorks() {
   return (
     <section id="how-it-works" className="process">
-      <div className="custom-shape-divider-top-1691831308">
+      <div className="section-divider">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -39,24 +39,18 @@ function HowItWorks() {
         Now, just imagine the daily or even monthly earnings that could be
         stacking up for you.
       </p>
-      <blockquote
-        style={{
-          width: 'calc(100% + 1em)',
-          fontSize: '1.125em',
-          backgroundColor: '#8ea68e',
-          margin: '0 -0.5em 1.125em',
-          padding: 14,
-          borderRadius: 8,
-        }}
-      >
-        Even if you&apos;ve never written an article before, you can use a
-        simple trick - the internet - to create and publish a book in just a day
-        using your smartphone or laptop. This easy method is what folks like you
-        use to make money every month in USD. The only ones who get a head start
-        are those who begin quickly. Being a writer or not doesn&apos;t matter
-        much in this business - it&apos;s all about being open to learning and
-        guidance.
-      </blockquote>
+      <p>
+        The great thing about this whole opportunity is that even if you&apos;ve
+        never written an article before, you can use a simple trick - the
+        internet - to create and publish a book in just a day using your
+        smartphone or laptop.
+      </p>
+      <p>
+        This easy method is what folks like you use to make money every month in
+        USD. The only ones who get a head start are those who begin quickly.
+        Being a writer or not doesn&apos;t matter much in this business -
+        it&apos;s all about being open to learning and guidance.
+      </p>
     </section>
   );
 }

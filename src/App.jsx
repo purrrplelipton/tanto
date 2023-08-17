@@ -1,23 +1,15 @@
 import React from 'react';
-import {
-  Footer,
-  Header,
-  Home,
-  HowItWorks,
-  Introduction,
-  Results,
-  Summary,
-} from './components';
+import { Footer, Header, Main } from './components';
+import { Drawer } from './components/common';
 
 function App() {
+  const [isOpen, setIsOpen] = React.useState(false);
+
   return (
     <>
-      <Header />
-      <Home />
-      <Introduction />
-      <Summary />
-      <HowItWorks />
-      <Results />
+      <Header isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Main />
+      <Drawer isOpen={isOpen} setIsOpen={setIsOpen} />
       <Footer />
     </>
   );

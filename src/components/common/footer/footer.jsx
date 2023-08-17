@@ -5,7 +5,7 @@ import './footer.css';
 function Footer() {
   return (
     <footer id="footer" className="page-footer">
-      <div className="custom-shape-divider-top-1691837205">
+      <div className="section-divider">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"

@@ -1,9 +1,4 @@
-import Footer from './footer';
-import Header from './header';
-import Home from './home';
-import HowItWorks from './how-it-works';
-import Introduction from './introduction';
-import Results from './results';
-import Summary from './summary';
+import { Footer, Header } from './common';
+import Main from './main';
 
-export { Header, Home, Footer, Introduction, Summary, Results, HowItWorks };
+export { Header, Main, Footer };

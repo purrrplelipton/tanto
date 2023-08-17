@@ -5,7 +5,7 @@ import './introduction.css';
 function Introduction() {
   return (
     <section id="introduction" className="introduction">
-      <div className="custom-shape-divider-top-1691830726">
+      <div className="section-divider">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"

@@ -6,7 +6,7 @@ import './summary.css';
 function Summary() {
   return (
     <section id="summary" className="summary">
-      <div className="custom-shape-divider-top-1691831125">
+      <div className="section-divider">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ function Summary() {
       </p>
       <a
         className="get-started"
-        href="https://wa.me/+2348087823890"
+        href={import.meta.env.VITE_TEXT_LINK}
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -1,0 +1,68 @@
+.backdrop {
+  position: fixed;
+  z-index: 60;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.drawer {
+  list-style-type: none;
+  position: fixed;
+  z-index: 80;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 280px;
+  color: var(--jet);
+  background-color: var(--champagne-pink);
+  padding: 1.25em 1.5em;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4.25em;
+  transition: transform 0.3s, opacity 0.3s, visibility 0.15s;
+
+  li {
+    display: block;
+    font-size: 1.25em;
+
+    &:first-child {
+      button {
+        display: block;
+        border: 0;
+        background: none;
+        margin-left: auto;
+      }
+    }
+
+    &:last-child {
+      display: flex;
+      flex-flow: column nowrap;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      /* margin-right: auto; */
+
+      &:not(:last-child) {
+        margin-bottom: 0.8em;
+      }
+    }
+  }
+
+  &.visible {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &.hidden {
+    transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
