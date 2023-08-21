@@ -1,3 +1,5 @@
+import feyi from '@assets/proofs/feyi.webp';
+import nancy from '@assets/proofs/nancy.webp';
 import React from 'react';
 import './results.css';
 
@@ -15,6 +17,22 @@ function Results() {
         </svg>
       </div>
       <h2>Results</h2>
+      <p>
+        Welcome to our Results and Proof section! Here, we&apos;re all about
+        real results and no-nonsense evidence. Curious to see the actual impact
+        our recommendations can have? Dive into these success stories and get
+        inspired to make smart choices for your journey.
+      </p>
+      <div>
+        <figure>
+          <img src={nancy} alt="Hullabaloo" />
+          <figcaption>Nancy</figcaption>
+        </figure>
+        <figure>
+          <img src={feyi} alt="Hullabaloo" />
+          <figcaption>Feyi</figcaption>
+        </figure>
+      </div>
     </section>
   );
 }
