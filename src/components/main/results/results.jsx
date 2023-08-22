@@ -48,6 +48,7 @@ function Results() {
             document.addEventListener('click', (evt) => {
               if (evt.target !== target) {
                 target.style = 'border-radius: 6px;';
+                document.body.removeAttribute('style');
               }
             });
             target.style =
@@ -63,6 +64,7 @@ function Results() {
             document.addEventListener('click', (evt) => {
               if (evt.target !== target) {
                 target.style = 'border-radius: 6px;';
+                document.body.removeAttribute('style');
               }
             });
             target.style =
@@ -78,6 +80,7 @@ function Results() {
             document.addEventListener('click', (evt) => {
               if (evt.target !== target) {
                 target.style = 'border-radius: 6px;';
+                document.body.removeAttribute('style');
               }
             });
             target.style =
@@ -93,6 +96,7 @@ function Results() {
             document.addEventListener('click', (evt) => {
               if (evt.target !== target) {
                 target.style = 'border-radius: 6px;';
+                document.body.removeAttribute('style');
               }
             });
             target.style =
@@ -108,6 +112,7 @@ function Results() {
             document.addEventListener('click', (evt) => {
               if (evt.target !== target) {
                 target.style = 'border-radius: 6px;';
+                document.body.removeAttribute('style');
               }
             });
             target.style =
